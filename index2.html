@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .item{
+            background-color: rgb(255, 255, 255);
+            height: 150px;
+            width: 150px;
+            transform: 
+                translate(80px, 80px)
+                scale(1.5, 1.5)
+                rotate(45deg);
+        }    
+        .item-1{            
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            transition: width 3s;
+            transition-timing-function: linear;
+        } 
+        .item-2{         
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            transition: width 3s;
+            transition-timing-function: ease;
+        } 
+        .item-3{      
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            transition: width 3s;
+            transition-timing-function: ease-in;
+        } 
+        .item-4{   
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            transition: width 3s;
+            transition-timing-function: ease-out;
+        } 
+        .item-5{       
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            transition: width 3s;
+            transition-timing-function: ease-in-out;
+        } 
+        .item-1:hover{
+            width: 100%;
+        }
+        .item-2:hover{
+            width: 100%;
+        }
+        .item-3:hover{
+            width: 100%;
+        }
+        .item-4:hover{
+            width: 100%;
+        }
+        .item-5:hover{
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="item"></div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="item-1">linear</div><br>
+    <div class="item-2">ease</div><br>
+    <div class="item-3">ease-in</div><br>
+    <div class="item-4">ease-out</div><br>
+    <div class="item-5">ease-in-out</div><br>
+</body>
+</html>
